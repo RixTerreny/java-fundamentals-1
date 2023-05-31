@@ -8,5 +8,5 @@ The first one generate the cost of a train's ticket given 2 input from the user 
 
 [Decimal format docs](https://www.baeldung.com/java-decimalformat) used to achive bonus of the first exercise. (formatted cost of the ticket with only 2 decimals)
 
-The second exercise is a program that, given a number from the user, it prints all the number from 0 to the chosen one, but replace multiples of 3 with the words "fizz", multiples of 5 with "buzz" and multiples of both numbers with "fizzBuzz"
+The second exercise is a program that, given a number from the user, it prints all the number from 0 to the chosen one, but replace multiples of 3 with the word "fizz", multiples of 5 with "buzz" and number that are multiples of both with "fizzBuzz"
 
