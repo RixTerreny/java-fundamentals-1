@@ -1,6 +1,6 @@
 # Java Fundamentals (Part 1)
 
-These are java exercise to practise fundamental knowledge of this language.
+These java exercise are to practise fundamental knowledge of this language.
 ## Info
 This repo is split in 2 exercise: 
 
