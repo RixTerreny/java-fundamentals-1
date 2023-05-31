@@ -13,7 +13,6 @@ public class Esercizio2 {
         }
 
         for (int i = 1; i < chosenNumber; i++) {
-
             if (i%3 == 0 && i%5 == 0){
                 System.out.println("FizzBuzz");
             } else if (i%3 == 0) {
