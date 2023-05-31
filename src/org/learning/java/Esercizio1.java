@@ -10,13 +10,16 @@ public class Esercizio1 {
         int age = keyboardInput.nextInt();
 
         double costPerKm = 0.21;
+        double under18Discount = 0.8;
+        double over65Discount = 0.6;
+
         double grossCostOfTheTicket = costPerKm * pathLength;
         double finalCostOfTheTicket = grossCostOfTheTicket;
 
         if (age<18){
-            finalCostOfTheTicket = grossCostOfTheTicket * 0.8;
+            finalCostOfTheTicket = grossCostOfTheTicket * under18Discount;
         }else if (age>65){
-            finalCostOfTheTicket = grossCostOfTheTicket * 0.6;
+            finalCostOfTheTicket = grossCostOfTheTicket * over65Discount;
         }
 
         /*Bonus:
